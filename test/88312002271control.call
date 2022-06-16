@@ -1,0 +1,8 @@
+Channel: SIP/00080655/88312002271
+Callerid:88312002271
+MaxRetries: 0
+RetryTime: 60
+WaitTime: 60
+Context: freepbx
+Extension:_8XXXXXXXXXX
+Priority: 1

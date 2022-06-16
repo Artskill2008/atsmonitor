@@ -1,0 +1,1000 @@
+   39  cp /etc/zabbix/ast/84951364163.sh cp /etc/zabbix/ast/84843957285.sh
+   40  cp /etc/zabbix/ast/84951364163.sh  /etc/zabbix/ast/84843957285.sh
+   41  cp /etc/zabbix/ast/84951364163.sh  /etc/zabbix/ast/84742240854.sh
+   42  cp /etc/zabbix/ast/84951364163.sh  /etc/zabbix/ast/84912622712.sh
+   43  cp /etc/zabbix/ast/84951364163.sh  /etc/zabbix/ast/88442265137.sh
+   44  cp /etc/zabbix/ast/84951364163.sh  /etc/zabbix/ast/84852673600.sh
+   45  cp /etc/zabbix/ast/84951364163.sh  /etc/zabbix/ast/84732027626.sh
+   46  cp /etc/zabbix/ast/84951364163.sh  /etc/zabbix/ast/88312002271.sh
+   47  cp /etc/zabbix/ast/84951364163.sh  /etc/zabbix/ast/84822396335.sh
+   48  cp /etc/zabbix/ast/84951364163.sh  /etc/zabbix/ast/84932774107.sh
+   49  cp /etc/zabbix/ast/84951364163.sh  /etc/zabbix/ast/84872571726.sh
+   50  cp /etc/zabbix/ast/84951364163.sh  /etc/zabbix/ast/88124499077.sh
+   51  /etc/zabbix/ast/84843957285.sh
+   52  vi /etc/zabbix/ast/84843957285.sh
+   53  vi /etc/zabbix/ast/84742240854.sh
+   54  vi /etc/zabbix/ast/84912622712.sh
+   55  vi /etc/zabbix/ast/88442265137.sh
+   56  vi /etc/zabbix/ast/84852673600.sh
+   57  vi /etc/zabbix/ast/84732027626.sh
+   58  vi /etc/zabbix/ast/88312002271.sh
+   59  vi /etc/zabbix/ast/84822396335.sh
+   60  vi /etc/zabbix/ast/84932774107.sh
+   61  vi /etc/zabbix/ast/84872571726.sh
+   62  vi /etc/zabbix/ast/88124499077.sh
+   63  ls -la /etc/zabbix/ast/
+   64  vi /etc/zabbix/ast/report.log
+   65  tail -n100 /etc/zabbix/ast/report.log
+   66  vim /etc/zabbix/ast/testats.py
+   67  vi /etc/asterisk/extensions.conf 
+   68  tail -n100 /etc/zabbix/ast/report.log
+   69  vi /etc/asterisk/extensions.conf 
+   70  vim /etc/zabbix/ast/testats.py
+   71  tail -n100 /etc/zabbix/ast/report.log
+   72  vim /etc/zabbix/ast/testats.py
+   73  tail -n100 /etc/zabbix/ast/report.log
+   74  vim /etc/zabbix/ast/testats.py
+   75  tail -n100 /etc/zabbix/ast/report.log
+   76  vim /etc/zabbix/ast/testats.py
+   77  vi /etc/zabbix/ast/84932774107.sh
+   78  ls -la /etc/zabbix/ast/84932774107.sh
+   79  ls -la /etc/zabbix/ast/
+   80  rm /etc/zabbix/ast/84953727713.sh 
+   81  ls -la /etc/zabbix/ast/
+   82  tail -n100 /etc/zabbix/ast/report.log
+   83  vim /etc/zabbix/ast/testats.py
+   84  tail -n100 /etc/zabbix/ast/report.log
+   85  vim /etc/zabbix/ast/testats.py
+   86  tail -n100 /etc/zabbix/ast/report.log
+   87  asterisk -rvvv
+   88  mc
+   89  python ./testats.py
+   90  pydoc imp.
+   91  pydoc imp.MySQLdb
+   92  ls -l
+   93  w
+   94  sudo service --status-all
+   95  service --status-all
+   96  service
+   97  systemctl
+   98  systemctl | grep zabbix
+   99  systemctl -t
+  100  systemctl t
+  101  systemctl list-units
+  102  mc
+  103  reboot now
+  104  service --status-all
+  105  lsb_release -a
+  106  cat /etc/lsb-release
+  107  cat /etc/*-release
+  108  chkconfig
+  109  systemctl list-unit-files
+  110  tail -n100 /etc/zabbix/ast/report.log
+  111  vim /etc/zabbix/ast/testats.py
+  112  history
+  113   crontab -e
+  114  history
+  115  service --status-all
+  116  systemctl | grep zabbix
+  117  asterisk -rvvvv
+  118  history
+  119  tail -n100 /etc/zabbix/ast/report.log
+  120  tail -n100 /etc/zabbix/ast/report.log | grep NO ANSWER
+  121  tail -n100 /etc/zabbix/ast/report.log | grep NO
+  122  tail -n1000 /etc/zabbix/ast/report.log | grep NO
+  123  history |  grep *zabbix*
+  124  history |  grep *zabbix*
+  125  history |  grep zabbix_agentd.d
+  126  vi /etc/zabbix/zabbix_agentd.conf
+  127  systemctl show
+  128  systemctl is active
+  129  systemctl is-active
+  130  reboot
+  131  vi /etc/asterisk/sip.conf 
+  132  history
+  133   firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source addre                              ss="10.2.20.189" port port="5060" protocol="udp" accept'
+  134   firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source addre                              ss="10.2.20.116" port port="5060" protocol="udp" accept'
+  135   firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source address="10.2.20.116" port port="5060" protocol="udp" accept'
+  136  asterisk -rvvvv
+  137  history
+  138  service firewalld stop
+  139     30  service firewalld start
+  140     31  asterisk -rvvv
+  141     32  service firewalld stop
+  142     33  asterisk -rvvv
+  143     34  vi /etc/asterisk/extensions.conf
+  144     35  asterisk -rvvv
+  145     36  firewall-cmd --list-all
+  146     37  service firewalld start
+  147     38  firewall-cmd --list-all
+  148     39  firewall-cmd --permanent --add-port=5060/udp
+  149     40  service firewalld restart
+  150     41  asterisk -rvvv
+  151     42  firewall-cmd --permanent --add-port=5060/udp source address=95.128.224.51
+  152     43  firewall-cmd --permanent --add-port=5060/udp source-address=95.128.224.51
+  153     44  firewall-cmd --list-all
+  154     45  asterisk -rvvv
+  155     46  firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source addre                              ss="95.128.224.51" port port="5060" protocol="tcp" accept'
+  156     47  firewall-cmd --list-all
+  157     48  firewall-cmd --permanent --remove-port=5060/udp
+  158     49  firewall-cmd --reload
+  159     50  asterisk -rvvv
+  160     51  vi /etc/asterisk/sip.conf
+  161     52  asterisk -rvvv
+  162     53  vi /etc/asterisk/sip.conf
+  163     54  service asterisk stop
+  164     55  vi /etc/asterisk/sip.conf
+  165     56  service asterisk start
+  166     57  asterisk -rvvvv
+  167     58  iptables -L
+  168     59  asterisk -rvvvv
+  169     60  service firewalld stop
+  170     61  asterisk -rvvvv
+  171     62  service firewalld start
+  172     63  asterisk -rvvvv
+  173     64  service firewalld stop
+  174     65  asterisk -rvvvv
+  175     66  vi /etc/asterisk/sip.conf
+  176     67  asterisk -rvvvv
+  177     68  vi /etc/asterisk/sip.conf
+  178     69  asterisk -rvvvv
+  179     70  vi /etc/asterisk/sip.conf
+  180     71  asterisk -rvvvv
+  181     72  vi /etc/asterisk/sip.conf
+  182     73  asterisk -rvvvv
+  183     74  vi /etc/asterisk/sip.conf
+  184     75  asterisk -rvvvv
+  185     76  service asterisk stop
+  186     77  ifconfig
+  187     78  asterisk -rvvvv
+  188     79  iptables -L
+  189     80  service firewalld stop
+  190     81  service firewalld disable
+  191     82  systemctl firewalld disable
+  192     83  systemctl firewall disable
+  193     84  history
+  194     85  service firewalld restart
+  195     86  service firewalld disable
+  196     87  asterisk -rvvvv
+  197     88  vi /etc/asterisk/sip.conf
+  198     89  asterisk -rvvvv
+  199     90  service firewalld stop
+  200     91  asterisk -rvvvv
+  201     92  service firewalld start
+  202     93  asterisk -rvvvv
+  203     94  history
+  204     95  firewall-cmd --state
+  205     96  firewall-cmd --list-all
+  206     97  firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source addre                              ss="95.128.224.51" port port="5060" protocol="tcp" accept'
+  207     98  firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source addre                              ss="95.128.224.51" port port="5060" protocol="udp" accept'
+  208     99  firewall-cmd --reload
+  209    100  asterisk -rvvv
+  210    101  firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source addre                              ss="10.2.20.141" port port="5060" protocol="udp" accept'
+  211    102  firewall-cmd --reload
+  212    103  yum install python3
+  213    104  yum install python3-piз
+  214    105  yum install python3-pip
+  215    106  pip3.6 install --upgrade pip
+  216    107  pip install pytelegrambotapi
+  217    108  pip install pyodbc
+  218    109  yum  install python3-wheel
+  219    110  pip install pyodbc
+  220    111  su artskill
+  221    112  adduser ast
+  222    113  passwd ast
+  223    114  su ast
+  224    115  ifconfig
+  225    116  python test11.py
+  226    117  vim test11.py
+  227    118  vim /etc/asterisk/sip.conf
+  228    119  vim /etc/asterisk/extensions.conf
+  229    120  python test11.py
+  230    121  python3 test11.py
+  231    122  vim /etc/asterisk/extensions.conf
+  232    123  vim test11.py
+  233    124  vim /etc/asterisk/extensions.conf
+  234    125  vim test11.py
+  235    126  python3 test11.py
+  236    127  vim test11.py
+  237    128  python3 test11.py
+  238    129  vim test11.py
+  239    130  systemctl mysqld status
+  240    131  systemctl  status mysqld
+  241    132  mysql -uroot -p
+  242    133  vim test11.py
+  243    134  python3 test11.py
+  244    135  mysql -uroot -p
+  245    136  куищще
+  246    137  reboot
+  247    138  asterisk -rvvvv
+  248    139  mysql -uroot -p
+  249    140  mysql -uasterisk -p
+  250    141  mysql -uroot -p
+  251    142  mysql -uasterisk -p
+  252    143  mysql -uroot -p
+  253    144  mysql -uasterisk -p
+  254    145  vim test11.py
+  255    146  python3 test11.py
+  256    147  vim test11.py
+  257    148  vim /etc/asterisk/cdr.conf
+  258    149  vim /etc/asterisk/sip.conf
+  259    150  python3 test11.py
+  260    151  asterisk -rvvvv
+  261    152  ls /var/lib/asterisk/sounds/
+  262    153  ls /var/lib/asterisk/sounds/en
+  263    154  service asterisk restart
+  264    155  asterisk -rvvvv
+  265    156  vim /etc
+  266    157  ls -la  /var/l
+  267    158  ls /usr/lib/asterisk/m
+  268    159  vim /etc/aster
+  269    160  ls -la  /var/lib/asterisk/sounds
+  270    161  vim /etc/aster
+  271    162  vim /etc/asterisk/sip.c
+  272    163  vim /etc/asterisk/exten
+  273    164  mc
+  274    165  ls -la /var/l
+  275    166  ls -la
+  276    167  chown asterisk:asterisk lapy.w
+  277    168  ls -la lapy.wav
+  278    169  vi
+  279    170  asterisk -rvvv
+  280    171  vi /etc/asterisk/cdr_mysql.conf
+  281    172  mysql -uasterisk -p
+  282    173  vi /etc
+  283    174  asterisk -rvvv
+  284    175  mysql -uasterisk -p
+  285    176  ifconfig
+  286    177  mysql -u
+  287    178  python3 test11.py
+  288    179
+  289    180  firewall-cmd -
+  290    181  firewall-cmd --reload
+  291    182  firewall-cmd --list-all
+  292    183  firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source addre                            
+  293    184  firewall-cmd --reload
+  294   
+  295    186  firewall-cmd --list-all
+  296    187  firewall-cmd --r
+  297    188  firewall-cmd --list-a
+  298    189  asterisk -rvvv
+  299    190  vi /var/log/asterisk/cdr-
+  300    191  vim /etc/aster
+  301    192  yum install mysql-devel
+  302   
+  303    194  yum install mysql
+  304    1
+  305    196  reboot
+  306    197  asterisk -r
+  307    198  rasterisk -vvvvvvv
+  308    1
+  309    200  vi /etc/asteris
+  310    201  service ast
+  311    202  asterisk -rvvv
+  312    203  vi /etc/asterisk/cdr_my
+  313    204  vim /etc/asteri
+  314    205  asterisk -rvvv
+  315    206  v
+  316    207  asterisk -rvvv
+  317    208  mysql -uasterisk -p
+  318    2
+  319    210  vi test11.py
+  320    
+  321    212  vi test11.py
+  322    213  vim /
+  323    214  python3 test11.
+  324    215  mysql -uasterisk -p
+  325    216
+  326    217  python3 test11.
+  327    218  vi  test11.py
+  328    219  pyth
+  329    220  mysql -uasteris
+  330    221  vi  test11.py
+  331    222  vi r
+  332    223  ls -la report.t
+  333    224  vi report.txt
+  334    225  vi  
+  335    226  python3 test11.
+  336    227  vim  test11.py
+  337    228 
+  338    229  vim  tes
+  339    230  python3 test11.
+  340    231  vi /var/log
+  341    232  vi /var/log/asterisk/m
+  342    233  tail -n 100 /var/log/aste
+  343    234  vim /etc/asterisk/extension
+  344    235  vim  test11.py
+  345    236  pyth
+  346    237  tail -n
+  347    238  vi report.txt
+  348    239  aste
+  349    240  vim test11.py
+  350    241  pyth
+  351    242  vi report.txt
+  352   
+  353    244  python3 test11.py
+  354    245  
+  355    246  vim test11.py
+  356   
+  357    248  vim test11.py
+  358    249  p
+  359    250  vim test11.py
+  360   
+  361    252  vim test11.py
+  362    253  vi
+  363    254  vim test11.py
+  364   
+  365    256  cat /va
+  366    257  tail -n 100 /var/log
+  367    258  vim test11.py
+  368    259  py
+  369    260  vim test11.py
+  370    261  python3 test11.py
+  371    262  tail -n 100 /var/log/lastlog
+  372    263  ls /var/log/lastlog
+  373    264  ls -la /var/log/w
+  374    265  tail -n 100 /var/log/wtmp
+  375   
+  376    267  vim test11.py
+  377    268  vi /etc/asterisk/extensions.conf
+  378    269  python3 test11.py
+  379    270  pip install ipython ipdb
+  380    271  ipdb test11.py
+  381    272  python3 -m ipdb test1
+  382    273  asterisk -rvvv
+  383    274 
+  384    275  asterisk -rvvv
+  385    276  cat /var/log/asterisk/messages
+  386    277  tail -n 100 /var/log/asterisk/messages
+  387    278  asterisk -rvvvv
+  388    279  mysql -uasterisk -p
+  389    280  vim /etc/asterisk/cdr.con
+  390    281  python3 test11.py
+  391    2
+  392    283  vi test11.py
+  393    284 
+  394    285  vi test11.py
+  395    286  pyth
+  396    287  vi test11.py
+  397    288  pyt
+  398    289  vi test11.py
+  399    290  python3 
+  400    291  vi test11.py
+  401    292  python3 
+  402    293  vi test11.py
+  403    294
+  404    295  vi test11.py
+  405    296  python
+  406    297  vi test11.py
+  407    298
+  408    299  vi test11.p
+  409    300  python3 tes
+  410    301  vi test11.
+  411    302  vim /e
+  412    303  vim /etc
+  413    304  vim /etc/asteris
+  414    305  asterisk -rvv
+  415    306  vi report.txt
+  416    307  yum i
+  417    308  number: 84952217226 status ANSWER
+  418    309  number: 84952217
+  419    310  number: 880077000
+  420    311  number: 84951364163 status ANSWER
+  421    312  number: 84999
+  422    313  vim /usr/local/etc/zabbix/zabbix
+  423    314  vim /etc/zabb
+  424    315  ls /etc/zabbix
+  425    
+  426    317  ls /etc/zabbi
+  427    318  yum install zabbi
+  428    319  ls /etc/zabbi
+  429    320  ls /etc/zabbix/zabbix_a
+  430    321  vim /etc/zabbix/zabbix_a
+  431    322  vi test11.py
+  432    
+  433    324  vim test11.py
+  434    325  python3 test11.py
+  435    326  vim test11.py
+  436   
+  437    328  vim test11.p
+  438    329  python
+  439    330  vi report.txt
+  440   
+  441    332  python3 test11.
+  442    333  vim test11.py
+  443    334
+  444    335  systemctl enabl
+  445    336  systemctl enable za
+  446    337  yum install zab
+  447    338  systemctl start zab
+  448    339  systemctl ena
+  449    340  systemctl enable 
+  450    341  systemctl
+  451    3
+  452    343  asterisk -rvvvv
+  453    344  sys
+  454    345  systemctl enable zabbix40
+  455    346  rpm -Uvh https://r
+  456    347  yum remove zabb
+  457    348  rpm -Uvh https://repo.zabbix
+  458    349  yum update
+  459    350  rpm -Uvh htt
+  460    351  rpm -Uvh https://repo.za
+  461    352  yum install zab
+  462    353  yum inst
+  463    354  yum update
+  464    3
+  465    356  yum install zabbix30-a
+  466    357  python3 test11
+  467    358  vim /etc/zabbix/zabbix_agentd.co
+  468    359  yum install za
+  469    360  cat report.txt
+  470    361  v
+  471    362  systemctl enable zabbix
+  472    363  sy
+  473    364  systemctl sta
+  474    365  system
+  475    366  ls /etc/zabbix/zabbix_agentd.d
+  476    367  ping -t 300 10.
+  477    368  pi
+  478    369  ping   10.2.0.
+  479    370  ping   10.2.0.98 |grep alive | 
+  480    371  ping   10.2.0.98 |g
+  481    372  ping   
+  482    373  ping   10.2.0.
+  483    374  ping   10.2.0.99 |g
+  484    375  ping   1
+  485    376  cat text
+  486    377  grep report.txt
+  487   
+  488    379
+  489    380  grep -w "84952
+  490    381  grep -w "84952217226"
+  491    382  grep -w "84952217226" r
+  492    383  grep -w "84952217226" report.txt | cut -b 27-
+  493    384  grep -w "84952217226" report.txt | cut -b 28-
+  494    385  vi test.sh
+  495    386  test.sh
+  496    387  sh test.sh
+  497    388  bash test.sh
+  498    389  sh test.sh
+  499    390  ./test.sh
+  500    391  chmod 777 test.sh
+  501    392  ./test.sh
+  502    393  vi test.sh
+  503    394  ./test.sh
+  504    395  vi test.sh
+  505    396  a = "grep -w "84952217226" report.txt | cut -b 28-"
+  506    397  vi test.sh
+  507    398  ./test.sh
+  508    399  vi test.sh
+  509    400  ./test.sh
+  510    401  vi test.sh
+  511    402  echo grep -w 84952217226 report.txt | cut -b 28-
+  512    403  echo "grep -w 84952217226 report.txt | cut -b 28-"
+  513    404  vi test.sh
+  514    405  ./test.sh
+  515    406  vi test.sh
+  516    407  ./test.sh
+  517    408  vi test.sh
+  518    409  ./test.sh
+  519    410  vi test.sh
+  520    411  ./test.sh
+  521    412  vi test.sh
+  522    413  ./test.sh
+  523    414  vi test.sh
+  524    415  ./test.sh
+  525    416  vi test.sh
+  526    417  ./test.sh
+  527    418  vi test.sh
+  528    419  ./test.sh
+  529    420  vi test.sh
+  530    421  ./test.sh
+  531    422  vi test.sh
+  532    423  ./test.sh
+  533    424  vi test.sh
+  534    425  ./test.sh
+  535    426  vi test.sh
+  536    427  ./test.sh
+  537    428  ls
+  538    429  vi test.sh
+  539    430  ./test.sh
+  540    431  vi test.sh
+  541    432  ./test.sh
+  542    433  vi test.sh
+  543    434  ./test.sh
+  544    435  vi test.sh
+  545    436  vi test2.sh
+  546    437  chmod 777 test2.sh
+  547    438  ./test2.sh
+  548    439  vi test2.sh
+  549    440  vi test.sh
+  550    441  ./test2.sh
+  551    442  ./test1.sh
+  552    443  ./test.sh
+  553    444  vi test.sh
+  554    445  ./test.sh
+  555    446  vi test.sh
+  556    447  cp test.sh test3.sh
+  557    448  vi test3.sh
+  558    449  chmod 777 test3.sh
+  559    450  ./test3.sh
+  560    451  vi test.sh
+  561    452  ./test.sh
+  562    453  vi test.sh
+  563    454  ls
+  564    455  vi test.sh
+  565    456  cp test.sh 84952217226.sh
+  566    457  chmod 777 84952217226.sh
+  567    458  ./84952217226.sh
+  568    459  vi 84952217226.sh
+  569    460  ./84952217226.sh
+  570    461  vi report.txt
+  571    462  cp 84952217226.sh 84953727713.sh
+  572    463  vi 84953727713.sh
+  573    464  chmod 777 84953727713.sh
+  574    465  ./84953727713.sh
+  575    466  ls
+  576    467  vi report.txt
+  577    468  cp 84952217226.sh 88007700022.sh
+  578    469  cp 84952217226.sh 84952217225.sh
+  579    470  vi report.txt
+  580    471  cp 84952217226.sh 84951364163.sh
+  581    472  vi report.txt
+  582    473  cp 84952217226.sh 84999548656.sh
+  583    474  ls
+  584    475  rm test*.sh
+  585    476  ls
+  586    477  rm zabbix-get-4.4.10-1.el7.x86_64.rpm
+  587    478  cat report.txt
+  588    479  cat text
+  589    480  rm text
+  590    481  ls
+  591    482  mkdir script
+  592    483  cp 8*.sh
+  593    484  cp 8*.sh script/
+  594    485  ls script/
+  595    486  vi report.txt
+  596    487  vi test11.py
+  597    488  history | grep zabbix
+  598    489  vim /etc/zabbix/zabbix_agentd.conf
+  599    490  vim /etc/zabbix/zabbix_agentd.conf.d/84951364163.conf
+  600    491  mk /etc/zabbix/zabbix_agentd.conf.d/84951364163.conf
+  601    492  touch /etc/zabbix/zabbix_agentd.conf.d/84951364163.conf
+  602    493  ls/etc/zabbix/zabbix_agentd.conf.d/84951364163.conf
+  603    494  ls /etc/zabbix/zabbix_agentd.conf.d/
+  604    495  ls /etc/zabbix/zabbix_agentd.conf
+  605    496  ls /etc/zabbix/
+  606    497  ls /etc/zabbix/zabbix_agentd.d
+  607    498  ls /etc/zabbix/zabbix_agentd.d/84951364163.conf
+  608    499  vim /etc/zabbix/zabbix_agentd.d/84951364163.conf
+  609    500  ls
+  610    501  vim /etc/zabbix/zabbix_agentd.d/84952217225.conf
+  611    502  cp /etc/zabbix/zabbix_agentd.d/84951364163.conf /etc/zabbix/zabbix_agentd                              .d/84952217225.conf
+  612    503  cp /etc/zabbix/zabbix_agentd.d/84951364163.conf /etc/zabbix/zabbix_agentd                              .d/84952217226.conf
+  613    504  cp /etc/zabbix/zabbix_agentd.d/84951364163.conf /etc/zabbix/zabbix_agentd                              .d/84953727713.conf
+  614    505  cp /etc/zabbix/zabbix_agentd.d/84951364163.conf /etc/zabbix/zabbix_agentd                              .d/84999548656.conf
+  615    506  cp /etc/zabbix/zabbix_agentd.d/84951364163.conf /etc/zabbix/zabbix_agentd                              .d/88007700022.conf
+  616    507  ls
+  617    508  ls /etc/zabbix/zabbix_agentd.d/84951364163.conf /etc/zabbix/zabbix_agentd                              .d/88007700022.conf
+  618    509  ls /etc/zabbix/zabbix_agentd.d/
+  619    510  vi /etc/zabbix/zabbix_agentd.d/84952217225.conf
+  620    511  vi /etc/zabbix/zabbix_agentd.d/84952217226.conf
+  621    512  vi /etc/zabbix/zabbix_agentd.d/84952217225.conf
+  622    513  vi /etc/zabbix/zabbix_agentd.d/84953727713.conf
+  623    514  vi /etc/zabbix/zabbix_agentd.d/84999548656.conf
+  624    515  vi /etc/zabbix/zabbix_agentd.d/88007700022.conf
+  625    516  vi /etc/zabbix/zabbix_agentd.d/84999548656.conf
+  626    517  vi /etc/zabbix/zabbix_agentd.d/84953727713.conf
+  627    518  vi /etc/zabbix/zabbix_agentd.d/84952217225.conf
+  628    519  vi /etc/zabbix/zabbix_agentd.d/84952217226.conf
+  629    520  ьс
+  630    521  mc
+  631    522  ды
+  632    523  ls
+  633    524  mkdir /etc/zabbix/ast
+  634    525  cp 8*.sh /etc/zabbix/ast/
+  635    526  vim /etc/zabbix/zabbix_agentd.conf
+  636    527  vim /etc/zabbix/zabbix_agentd.d/84951364163.conf
+  637    528  vim /etc/zabbix/zabbix_agentd.d/84952217225.conf
+  638    529  vim /etc/zabbix/zabbix_agentd.d/84952217226.conf
+  639    530  vim /etc/zabbix/zabbix_agentd.d/84953727713.conf
+  640    531  vim /etc/zabbix/zabbix_agentd.d/84952217226.conf
+  641    532  vim /etc/zabbix/zabbix_agentd.d/84952217225.conf
+  642    533  vim /etc/zabbix/zabbix_agentd.d/84951364163.conf
+  643    534  vim /etc/zabbix/zabbix_agentd.d/84999548656.conf
+  644    535  vim /etc/zabbix/zabbix_agentd.d/88007700022.conf
+  645    536  service zabbix-agent restart
+  646    537  service restart zabbix-agent
+  647    538  systemctl restart zabbix-agent
+  648    539  systemctl stop zabbix-agent
+  649    540  systemctl start zabbix-agent
+  650    541  reboot
+  651    542  systemctl status zabbix-agent
+  652    543  systemctl status zabbix-agent  -l
+  653    544  cat /etc/zabbix/zabbix_agentd.conf
+  654    545  tail /var/log/zabbix/zabbix_agentd.log
+  655    546  systemctl start zabbix-agent
+  656    547  ip a
+  657    548  service --status-all
+  658    549  cat /etc/os-release
+  659    550  systemctl status zabbix-agent
+  660    551  mc
+  661    552  systemctl restart zabbix-agent
+  662    553  journalctl -xe
+  663    554  mc
+  664    555  systemctl start zabbix-agent
+  665    556  journalctl -xe
+  666    557  journalctl -xe
+  667    558  mc
+  668    559  service --status-all
+  669    560  cat /etc/os-release
+  670    561  systemctl status firewalld
+  671    562  firewall-cmd
+  672    563  firewall-cmd --help
+  673    564  firewall-cmd --list-all
+  674    565  systemctl stop firewalld
+  675    566  systemctl куstart zabbix-agent
+  676    567  systemctl restart zabbix-agent
+  677    568  systemctl status zabbix-agent
+  678    569  systemctl status zabbix-agent
+  679    570  systemctl status firewalld
+  680    571  firewall-cmd --list-all
+  681    572  cat /etc/hostname
+  682    573  cat /etc/selinux/config
+  683    574  netstat -pnltu
+  684    575  systemctl restart zabbix-agent
+  685    576  systemctl restart zabbix-agent
+  686    577  systemctl stop iptables
+  687    578  systemctl stop iptable
+  688    579  шз ф
+  689    580  ip a
+  690    581  vim /etc/zabbix/zabbix_agentd.conf
+  691    582  vim /etc/zabbix/zabbix_agentd.d/84951364163.conf
+  692    583  vim /etc/zabbix/zabbix_agentd.d/84952
+  693    584  vim /etc/zabbix/zabbix_agentd.d/84952217225.conf
+  694    585  vim /etc/zabbix/zabbix_agentd.d/84952217226.conf
+  695    586  vim /etc/zabbix/zabbix_agentd.d/84953727713.conf
+  696    587  vim /etc/zabbix/zabbix_agentd.d/84999548656.conf
+  697    588  vim /etc/zabbix/zabbix_agentd.d/88007700022.conf
+  698    589  systemctl status zabbix-agent
+  699    590  systemctl stop zabbix-agent
+  700    591  systemctl start zabbix-agent
+  701    592  journalctl -xe
+  702    593  vim /etc/zabbix/zabbix_agentd.d/84951364163.conf
+  703    594  systemctl stop zabbix-agent
+  704    595  systemctl start zabbix-agent
+  705    596  journalctl -xe
+  706    597  vim /etc/zabbix/zabbix_agentd.d/84951364163.conf
+  707    598  systemctl stop zabbix-agent
+  708    599  systemctl start zabbix-agent
+  709    600  journalctl -xe
+  710    601  vim /etc/zabbix/zabbix_agentd.d/84952217225.conf
+  711    602  vim /etc/zabbix/zabbix_agentd.d/84952217226.conf
+  712    603  vim /etc/zabbix/zabbix_agentd.d/84953727713.conf
+  713    604  vim /etc/zabbix/zabbix_agentd.d/84999548656.conf
+  714    605  vim /etc/zabbix/zabbix_agentd.d/88007700022.conf
+  715    606  systemctl stop zabbix-agent
+  716    607  systemctl start zabbix-agent
+  717    608  journalctl -xe
+  718    609  vim /etc/zabbix/zabbix_agentd.conf
+  719    610  journalctl -xe
+  720    611  vim /etc/zabbix/zabbix_agentd.conf
+  721    612  vi LogFile=/var/log/zabbix/zabbix_agentd.log
+  722    613  vi /var/log/zabbix/zabbix_agentd.log
+  723    614  vim /etc/zabbix/zabbix_agentd.d/88007700022.conf
+  724    615  vim /etc/zabbix/zabbix_agentd.conf
+  725    616  history
+  726    617  firewall-cmd --permanent --remove-rich-rule 'rule family="ipv4" source ad                              dress="10.2.0.98" port port="10050" protocol="udp" accept
+  727  history
+  728  service firewalld start
+  729  history
+  730  vi /etc/asterisk/extensions.conf 
+  731  service asterisk reload
+  732  firewall-cmd --list-all
+  733  vi /etc/asterisk/extensions.conf 
+  734  service asterisk reload
+  735  vi /etc/asterisk/extensions.conf 
+  736  service asterisk reload
+  737  vi /etc/asterisk/extensions.conf 
+  738  service asterisk reload
+  739  vi /etc/asterisk/extensions.conf 
+  740  service asterisk reload
+  741  vi /etc/asterisk/extensions.conf 
+  742  service asterisk reload
+  743  vi /etc/asterisk/extensions.conf 
+  744  service firewalld start
+  745  firewall-cmd list-all
+  746  firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source address="10.2.0.99" port port="10050" protocol="tcp" accept'
+  747  firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source address="10.2.0.99" port port="10051" protocol="tcp" accept'
+  748  firewall-cmd --list-all
+  749  firewall-cmd --reload
+  750  firewall-cmd --list-all
+  751  firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source address="10.2.0.99" port port="10051" protocol="udp" accept'
+  752  firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source address="10.2.0.99" port port="10050" protocol="udp" accept'
+  753  firewall-cmd --reload
+  754  firewall-cmd --list-all
+  755  asterisk -rvvvv
+  756  vi /etc/asterisk/extensions.conf 
+  757  service asterisk reload
+  758  asterisk -rvvvv
+  759  service asterisk reload
+  760  asterisk -rvvvv
+  761  tail -n1000 /etc/zabbix/ast/report.log | grep NO
+  762  tail -n100 /etc/zabbix/ast/report.log
+  763  vi /etc/asterisk/sip.conf 
+  764  tail -n100 /etc/zabbix/ast/report.log
+  765  vi /etc/asterisk/extensions.conf 
+  766  tail -n100 /etc/zabbix/ast/report.log
+  767  vi /etc/asterisk/extensions.conf 
+  768  tail -n100 /etc/zabbix/ast/report.log
+  769  tail -n1000 /etc/zabbix/ast/report.log
+  770  tail -n1000 /etc/zabbix/ast/report.log | grep 88442265137 
+  771  tail -n1000 /etc/zabbix/ast/report.log
+  772  tail -n1000 /etc/zabbix/ast/report.log | grep 88124499077
+  773  firewall-cmd --list-all
+  774  history
+  775   firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source address="10.2.20.*" port port="5060" protocol="udp" accept'
+  776   firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source address="10.2.20.154" port port="5060" protocol="udp" accept'
+  777  history
+  778   firewall-cmd --reload
+  779  asterisk -rvvvv
+  780  tail -n1000 /etc/zabbix/ast/report.log | grep 88442265137 
+  781  asterisk -rvvvv
+  782  history
+  783  ls /etc/zabbix/ast/
+  784  cd /etc/zabbix/ast/
+  785  vi testats.py
+  786  vim testats.py
+  787  vi  /baze/88007700022.log 
+  788  rm *  /baze/88007700022.log 
+  789  ls  /baze/88007700022.log 
+  790  ls
+  791  cd  /baze
+  792  ls
+  793  rm *
+  794  cd /etc/zabbix/ast/
+  795  ls
+  796  cp 84843957285.sh 84732027626.sh»
+  797  cp 84843957285.sh 84732027626.sh
+  798  cp 84843957285.sh 84742240854.sh
+  799  cp 84843957285.sh 84822396335.sh
+  800  cp 84843957285.sh 84843957285.sh
+  801  vi 84732027626.sh
+  802  vi 84742240854.sh
+  803  vi 84822396335.sh
+  804  cd ..
+  805  ls
+  806  cp ast ast_bac
+  807  mkdir ast_bac
+  808  cp ast ast_bac
+  809  cp /etc/zabbix/ast ast_bac
+  810  cp -R /etc/zabbix/ast ast_bac
+  811  ls ast_bac/
+  812  ls ast_bac/ast/
+  813  exit
+  814  cd /baze/
+  815  tail 84999548656.log 
+  816  vim testats.py
+  817  cd /etc/zabbix/ast
+  818  ls
+  819  vim testats.py
+  820  vi test.call 
+  821  vim testats.py
+  822  tail /baze/lo2.log 
+  823  tail /baze/lo2.log -n 100
+  824  tail -n1000 /etc/zabbix/ast/report.log 
+  825  vim testats.py
+  826  tail -n1000 /etc/zabbix/ast/report.log 
+  827  ls
+  828  vim testats.py
+  829  cp  /etc/zabbix/ast/report.log report.log>bac
+  830  cp  /etc/zabbix/ast/report.log report.log.bac
+  831  rm report.log
+  832  tail -n1000 /etc/zabbix/ast/report.log 
+  833  tail -n1000 /etc/zabbix/ast/report.txt 
+  834  reboot
+  835  tail -n1000 /etc/zabbix/ast/report.log
+  836  mysql -uroot -p
+  837  mysql -uasterisk  -p
+  838  mysql -uroot -p
+  839  tail -n1000 /etc/zabbix/ast/report.log
+  840  mysql -uroot -p
+  841  tail -n1000 /etc/zabbix/ast/report.log
+  842  vi /etc/zabbix/ast/testats.py
+  843  crontab
+  844  history |grep crontab
+  845  crontab -e
+  846  service crontab restatrt
+  847  service crontab restart
+  848  /etc/init.d/cron reload
+  849   service cron reload
+  850  service cron restart
+  851  sudo service cron reload
+  852  гтфьу -ф
+  853  unsame -a
+  854  uname -a
+  855  cat /etc/*-release
+  856  reboot
+  857  asterisk -rvvvv
+  858  systemctl reload crond.service
+  859  sudo service crond reload
+  860  asterisk -rvvvv
+  861  tail -n1000 /etc/zabbix/ast/report.log
+  862  vi /etc/zabbix/ast/testats.py
+  863  asterisk -rvvvv
+  864  tail /baze/log2.log 
+  865  tail -n1000 /etc/zabbix/ast/report.log
+  866  reboot
+  867  crontab -e
+  868  sudo service crond reload
+  869  tail -n1000 /etc/zabbix/ast/report.log
+  870  sudo service crond reload
+  871  tail -n1000 /etc/zabbix/ast/report.log
+  872  mysql -uroot -p
+  873  tail -n1000 /etc/zabbix/ast/report.log
+  874  vi /etc/zabbix/ast/testats.py
+  875  tail -n1000 /etc/zabbix/ast/report.log
+  876  tail -n10000 /etc/zabbix/ast/report.log | grep busy
+  877  tail -n10000 /etc/zabbix/ast/report.log | grep BUSY
+  878  tail -n10000 /etc/zabbix/ast/report.log | grep NOANSWERED
+  879  tail -n100000 /etc/zabbix/ast/report.log | grep NOANSWERED
+  880  tail -n100000 /etc/zabbix/ast/report.log | grep BUSY
+  881  tail -n10000 /etc/zabbix/ast/report.log | grep BUSY
+  882  tail -n50000 /etc/zabbix/ast/report.log | grep BUSY
+  883  vi /etc/zabbix/ast/testats.py
+  884  vim /etc/zabbix/ast/testats.py
+  885  history
+  886  cp /etc/zabbix/ast /ast_bac
+  887  cp * /etc/zabbix/ast /ast_bac
+  888  cp * /etc/zabbix/ast /etc/zabbix/ast_bac
+  889  cd /etc/zabbix/ast
+  890  ls
+  891  ls /etc/zabbix/ast_bac/
+  892  ls -la /etc/zabbix/ast_bac/ast
+  893  ls -la /etc/zabbix/ast_bac
+  894  service crond stop
+  895  cp -R /etc/zabbix/ast /etc/zabbix/ast_bac/ast
+  896  ls /etc/zabbix/ast_bac/
+  897  ls  -la /etc/zabbix/ast_bac/ast
+  898  cp -R /etc/zabbix/ast /etc/zabbix/ast_bac/
+  899  cp -R -y /etc/zabbix/ast /etc/zabbix/ast_bac/ 
+  900  cp -R  /etc/zabbix/ast /etc/zabbix/ast_bac/ 
+  901  y
+  902  ls  -la /etc/zabbix/ast_bac/ast
+  903  фзе-пуе штыефдд пше
+  904  apt-get install git
+  905  yum install git
+  906  git init 
+  907  ls -la
+  908  git add EDOTFILE
+  909  git add EDITFILE
+  910  git add .
+  911  git status
+  912  git commit
+  913  history
+  914  git log
+  915  git remote add origin https://github.com/Artskill2008/atsmonitor.git
+  916  git push -u origin main
+  917  git commit -m "Test"
+  918  git push origin master
+  919  ls
+  920  cd /etc/zabbix/ast
+  921  ls
+  922  git rm report.log.bac
+  923  ls
+  924  cd /etc/zabbix/ast
+  925  ls
+  926  git commit -m "Udalil log.bac"
+  927  git push origin master
+  928  ls -la 
+  929  git add .
+  930  git reset /etc/zabbix/ast/report.log.bac
+  931  git reset report.log.bac
+  932  ls -la /etc/zabbix/ast_bac
+  933  rm bac
+  934  git reset report.log.bac
+  935  git add .
+  936  git status
+  937  git commit -m "Udalil /bac"
+  938  git add .
+  939  git status
+  940  git push origin master
+  941  git reset
+  942  ls 
+  943  git push origin master
+  944  tail /etc/zabbix/zabbix_agent.d
+  945  ls /etc/zabbix/zabbix_agent2.d/
+  946  cd /etc/zabbix/zabbix_agent2.d/
+  947  ls
+  948  cd /etc/zabbix/zabbix_agent.d/
+  949  tail /etc/zabbix/zabbix_agentd.conf
+  950  cp /etc/zabbix/zabbix_agentd.conf /etc/zabbix/zabbix_agentd.conf_bac
+  951  uname -a
+  952  ls
+  953  cd ..
+  954  ls
+  955  history
+  956  cd ..
+  957  ls -la
+  958  ls /home/
+  959  ls /home/ast
+  960  ls /home/asterisk/
+  961  ls /home/baze/
+  962  ls -la /home/baze/
+  963  ls -la /home/ast/
+  964  ls -la /home/asterisk/
+  965  ls baze/
+  966  ls tmp/
+  967  cd /home/
+  968  cd ast
+  969  wget https://cdn.zabbix.com/zabbix/binaries/stable/6.0/6.0.1/zabbix_agent-6.0.1-linux-3.0-amd64-static.tar.gz
+  970  tar -xf zabbix_agent-6.0.1-linux-3.0-amd64-static.tar.gz 
+  971  ls
+  972  tar -xf zabbix_agent-6.0.1-linux-3.0-amd64-static.tar.gz zab
+  973  ls
+  974  ls -la
+  975  rpm -Uvh https://repo.zabbix.com/zabbix/6.0/rhel/7/x86_64/zabbix-release-6.0-1.el7.noarch.rpm
+  976  yum erase zabbix-agent
+  977  yum clean all
+  978  yum install zabbix-agent
+  979  history
+  980  ls /etc/zabbix
+  981  vi /etc/zabbix/zabbix_agentd.conf
+  982  service zabbix_agentd restart
+  983  systemctl
+  984  systemctl | grep *zabbix*
+  985  systemctl restart zabbix-agent.service e
+  986  systemctl restart zabbix-agent2.service 
+  987  systemctl status zabbix-agent2.service 
+  988  systemctl status zabbix-agent.service 
+  989  systemctl restart zabbix-agent
+  990  systemctl enable zabbix-agent 
+  991  systemctl status zabbix-agent 
+  992  reboot
+  993  vi /etc/zabbix/zabbix_agentd.conf_bac 
+  994  cd /etc/zabbix/ast/
+  995  ls
+  996  rm 84732027626.sh» 
+  997  ls
+  998  ls -la
+  999  systemctl status zabbix-agent
+ 1000  systemctl status zabbix-agent.service 
+ 1001  netstat
+ 1002  nmap localhost
+ 1003  yum install localhost
+ 1004  yum install nmap
+ 1005  nmap localhost
+ 1006  history
+ 1007   firewall-cmd --list-all
+ 1008  firewall-cmd --state
+ 1009* firewall-cmd --permanent --remove-port=80/tcp
+ 1010  firewall-cmd --list-rich-rules
+ 1011  history
+ 1012  firewall-cmd --permanent --add-rich-rule 'rule family="ipv4" source address="10.2.0.99" port port="10050" protocol="tcp" accept'
+ 1013  firewall-cmd --permanent --remove-rich-rule 'rule family="ipv4" source address="10.2.0.98" port port="10050" protocol="tcp" accept'
+ 1014  firewall-cmd --list-rich-rules
+ 1015  firewall-cmd --permanent --remove-rich-rule 'rule family="ipv4" source address="10.2.0.98" port port="10051" protocol="tcp" accept'
+ 1016  firewall-cmd --permanent --remove-rich-rule 'rule family="ipv4" source address="10.2.0.98" port port="10051" protocol="udp" accept'
+ 1017  firewall-cmd --permanent --remove-rich-rule 'rule family="ipv4" source address="10.2.0.98" port port="10050" protocol="udp" accept'
+ 1018   firewall-cmd --reload
+ 1019  firewall-cmd --list-rich-rules
+ 1020  firewall-cmd --permanent --remove-rich-rule 'rule family="ipv4" source address="10.2.20.141" port port="5060" protocol="udp" accept'
+ 1021  firewall-cmd --permanent --remove-rich-rule 'rule family="ipv4" source address="10.2.20.139" port port="5060" protocol="udp" accept'
+ 1022  firewall-cmd --permanent --remove-rich-rule 'rule family="ipv4" source address="10.2.20.189" port port="5060" protocol="udp" accept'
+ 1023  firewall-cmd --permanent --remove-rich-rule 'rule family="ipv4" source address="10.2.20.116" port port="5060" protocol="udp" accept'
+ 1024  firewall-cmd --permanent --remove-rich-rule 'rule family="ipv4" source address="10.2.20.154" port port="5060" protocol="udp" accept'
+ 1025   firewall-cmd --reload
+ 1026  firewall-cmd --list-rich-rules
+ 1027  ls
+ 1028  dh
+ 1029  df -h
+ 1030  dh /etc
+ 1031  ls ast
+ 1032  cd /etc/zabbix/ast
+ 1033  ls
+ 1034  cd /etc/zabbix/
+ 1035  ls
+ 1036  cd /etc/zabbix/ast
+ 1037  ls -la
+ 1038  history > history.txt

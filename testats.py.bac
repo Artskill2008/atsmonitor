@@ -1,0 +1,142 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*- 
+
+#import smtplib
+#import sys
+#import telebot
+#import subprocess
+#import sys
+import MySQLdb
+#import re
+import os
+import subprocess
+import time
+from datetime import datetime
+
+numbers = None
+testtel=[]
+
+
+#numbers = ['84953727713','84959339727','89030013294','89645970195']
+numbers = ['84952217226','84952217225','88007700022','84951364163','84999548656','84953727713']
+for number in numbers:
+    my_file = open("1.call", "w+")
+    my_file.write("Channel: sip/00080655/"+number+"\n")
+    my_file.write("Callerid:"+number+"\n")
+    my_file.write("MaxRetries: 0\n" "RetryTime: 60\n" "WaitTime: 3\n" "Context: freepbx\n")
+    extension_call= "Extension:_8XXXXXXXXXX\n"
+    my_file.write(extension_call)
+    my_file.write("Priority: 1\n")
+    my_file.close()
+    os.system("chown asterisk.asterisk 1.call")
+    os.system("mv 1.call /var/spool/asterisk/outgoing/1.call")
+    time.sleep(5)
+    print("Первый 5 секунд.", number)  
+
+    #connect db
+    conn = MySQLdb.connect('localhost', 'asterisk', 'PSr730Xg$', 'asterisk')
+    cursor = conn.cursor()
+
+
+    # Zapros k bd 1
+    cursor.execute("SELECT src, disposition FROM cdr ORDER BY `calldate` DESC limit 1")
+
+    # Получаем данные 1.
+    row = cursor.fetchone()
+    tel = row[0]
+    callstatus = row[1]
+    print (tel, callstatus)
+    conn.close()
+    # Проверяем на ответ 1
+    if callstatus ==('ANSWERED'):
+        #report_file = open("report.txt", "a+")
+        #report_file.write("test"+tel +"test" + callstatus+"\n")
+        #report_file.close()
+        #Пишем состояние звонка 1
+        #report_file = open("report.txt", "a+")
+        #report_file.write("number: "+ tel +" status "+callstatus+"\n")
+        #report_file.close()
+        testtel.append("number: "+ tel +" status "+ callstatus )
+    else:
+        my_file = open("2.call", "w+")
+        my_file.write("Channel: sip/freepbx/"+tel+"\n")
+        my_file.write("Callerid:"+tel+"\n")
+        my_file.write("MaxRetries: 0\n" "RetryTime: 60\n" "WaitTime: 3\n" "Context: freepbx\n")
+        extension_call= "Extension:_8XXXXXXXXXX\n"
+        my_file.write(extension_call)
+        my_file.write("Priority: 1\n")
+        my_file.close()
+        os.system("chown asterisk.asterisk 2.call")
+        os.system("mv 2.call /var/spool/asterisk/outgoing/2.call")
+        time.sleep(5)
+        print("Второй 5 секунд.",number)
+       
+        #connect db
+        conn = MySQLdb.connect('localhost', 'asterisk', 'PSr730Xg$', 'asterisk')
+        cursor = conn.cursor() 
+        # Zapros k bd 2
+        cursor.execute("SELECT src, disposition FROM cdr ORDER BY `calldate` DESC limit 1")
+        
+        # Получаем данные 2.
+        row = cursor.fetchone()
+        tel = row[0]
+        callstatus = row[1]
+        print (tel, callstatus)
+        conn.close()
+
+        # Првеояем на ответ 2  
+        if callstatus ==('ANSWERED'):
+ 
+            #Пишем состояние звонка 
+            #report_file = open("report.txt", "a+")
+            #report_file.write("number: "+ tel +" status "+callstatus+"\n")
+            #report_file.close()
+            testtel.append("number: "+ tel +" status "+ callstatus )
+        else:
+            my_file = open("3.call", "w+")
+            my_file.write("Channel: sip/freepbx/"+tel+"\n")
+            my_file.write("Callerid:"+tel+"\n")
+            my_file.write("MaxRetries: 0\n" "RetryTime: 60\n" "WaitTime: 3\n" "Context: freepbx\n")
+            extension_call= "Extension:_8XXXXXXXXXX\n"
+            my_file.write(extension_call)
+            my_file.write("Priority: 1\n")
+            my_file.close()
+            os.system("chown asterisk.asterisk 3.call")
+            os.system("mv 3.call /var/spool/asterisk/outgoing/3.call")
+            time.sleep(5)
+            print("Третий 5 секунды.",number)
+            
+
+            #connect db
+            conn = MySQLdb.connect('localhost', 'asterisk', 'PSr730Xg$', 'asterisk')
+            cursor = conn.cursor()          
+            # Zapros k bd 2
+            cursor.execute("SELECT src, disposition FROM cdr ORDER BY `calldate` DESC limit 1")
+
+            # Получаем данные 3.
+            row = cursor.fetchone()
+            tel = row[0]
+            callstatus = row[1]
+            print (tel, callstatus)
+            conn.close()
+            # Пишем состояние звонка 3
+            #eport_file = open("report.txt", "a+")
+            #eport_file.write("number: "+ tel +" status "+callstatus+"\n")
+            #eport_file.close()
+            testtel.append("number: "+ tel +" status "+ callstatus )
+#Создаем файл report.txt
+report_file = open("report.txt", "w")
+report_file.close()
+for item in testtel:
+    report_file = open("report.txt", "a+")
+    report_file.write(str(item) + "\n")
+    print(item)
+#report_file = open("report.txt", "a+")
+#report_file.write(testtel)
+#report_file.close()
+#print(testtel)
+now = datetime.now()
+print(now)
+del tel
+del callstatus	
+        

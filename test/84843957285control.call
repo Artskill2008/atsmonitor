@@ -1,0 +1,8 @@
+Channel: SIP/00080655/84843957285
+Callerid:84843957285
+MaxRetries: 0
+RetryTime: 60
+WaitTime: 60
+Context: freepbx
+Extension:_8XXXXXXXXXX
+Priority: 1
